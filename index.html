@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <!-- google fonts -->
     <style>
-        body{background-color:#F0F0F0;}
+        body{background-color:#FFEE51;}
         .bgColorMBlk{
             /* background-color: #F45050; */
         }
@@ -34,6 +34,15 @@
         }
         .fontCursive {
             font-family: 'Great Vibes', cursive;
+        }
+        #fontSizeMainHeading{
+            font-size: 81px;
+        }
+        .bgThemeBlack{
+            background-color: #1a1a1a;
+        }
+        .textColorThemeWhite{
+            color: #FDF4F5;
         }
     </style>
     <meta charset="UTF-8">
@@ -68,13 +77,15 @@
     <!-- 5. when you press the music button it wants you to either submit a playlist or add some songs that it'll play for you in the youtube or even so flexible that it allows you to choose the platform like spotify and apple music we'll make it that flexible -->
 
 <!-- since the bootstrap wala solution is too tought rn for me I'm going to override the values -->
-    <nav class="navbar navbar-inverse bgColorMBlk">
+    <!-- <nav class="navbar navbar-inverse bgColorMBlk">
         <div class="container-fluid">
           <div class="navbar-header centerAlignt">
             <a class="navbar-brand" href="#"><div class="fontCursive">
                     Thousand-Clock
             </div></a>
-          <!-- </div>
+          
+      </nav> -->
+      <!-- </div>
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Page 1</a></li>
@@ -83,8 +94,13 @@
           </ul>
         </div> -->
         <!-- we'll deal with this later -->
-      </nav>
-    
+
+        <!-- we are going to override the bootstrap CDN and we are going to make our own nav bar so that we have more control over it -->
+        
+    <!-- Our own personal navbar using w3school -->
+    <div class="topnav centerAlign bgThemeBlack">
+        <span class="logo fontCursive textColorThemeWhite" id="fontSizeMainHeading">Thousand-Clock</span>
+    </div>
     <div class="clock centerAlign mt20">
         <iframe src="https://free.timeanddate.com/clock/i8swfaek/n1840/tct/pct/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="87" height="34" allowtransparency="true"></iframe>
     </div>
