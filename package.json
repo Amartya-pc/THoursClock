@@ -1,0 +1,19 @@
+{
+  "name": "thoursclock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eAmartya/THoursClock.git"
+  },
+  "author": "Amartya Pratap Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eAmartya/THoursClock/issues"
+  },
+  "homepage": "https://github.com/eAmartya/THoursClock#readme"
+}
