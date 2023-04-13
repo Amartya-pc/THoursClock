@@ -18,7 +18,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <!-- google fonts -->
     <style>
-        body{background-color:#FFEE51;}
+        body{
+            background-color:#FFEE51;
+            color: black;
+        }
         .bgColorMBlk{
             /* background-color: #F45050; */
         }
@@ -43,6 +46,9 @@
         }
         .textColorThemeWhite{
             color: #FDF4F5;
+        }
+        .clockMineStyle{
+            color: black;
         }
     </style>
     <meta charset="UTF-8">
@@ -101,8 +107,7 @@
     <div class="topnav centerAlign bgThemeBlack">
         <span class="logo fontCursive textColorThemeWhite" id="fontSizeMainHeading">Thousand-Clock</span>
     </div>
-    <div class="clock centerAlign mt20">
-        <iframe src="https://free.timeanddate.com/clock/i8swfaek/n1840/tct/pct/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="87" height="34" allowtransparency="true"></iframe>
+    <div id="clockMine" class="clockMineStyle centerAlign" onload="currentTime()">
     </div>
     <div class="button centerAlign">
         <a href="https://www.youtube.com/watch?v=zCFguXyqj4Q" target="_blank">
@@ -110,7 +115,7 @@
         </a>
 
     </div>
-
+    <script src="myScript.js"></script>
 </body>
 
 </html>
